@@ -119,7 +119,7 @@ tailwind.config = {
       <div class="w-72 h-72 md:w-80 md:h-80 rounded-[2rem] overflow-hidden bg-surface-container-low premium-shadow">
         <!-- Replace src with your actual photo -->
         <img
-          src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=faces"
+          src="nivedh.png"
           alt="Nivedh Mohanan"
           class="w-full h-full object-cover"
         />
@@ -215,7 +215,7 @@ tailwind.config = {
 
   <!-- ABOUT -->
   <section id="about" class="bg-surface-container-low py-24">
-    <div class="max-w-6xl mx-auto px-8 grid md:grid-cols-2 gap-16 items-center">
+    <div class="max-w-6xl mx-auto px-8 max-w-3xl">
       <div>
         <p class="section-label mb-3">Who I Am</p>
         <h2 class="text-4xl font-extrabold text-wall mb-8">About Me</h2>
@@ -225,16 +225,7 @@ tailwind.config = {
           <p>I bring a practical, user-driven perspective to product thinking—focusing on identifying gaps, simplifying complexity, and contributing to solutions that deliver real value, regardless of traditional product experience.</p>
         </div>
       </div>
-      <div class="flex justify-center md:justify-end">
-        <div class="w-full max-w-sm aspect-square rounded-[2rem] overflow-hidden premium-shadow bg-surface-container">
-          <!-- Replace with a different photo or an abstract image -->
-          <img
-            src="https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=500&h=500&fit=crop"
-            alt="About Nivedh"
-            class="w-full h-full object-cover"
-          />
-        </div>
-      </div>
+
     </div>
   </section>
 
@@ -260,7 +251,7 @@ tailwind.config = {
             <span class="material-symbols-outlined text-primary text-2xl">mail</span>
           </div>
           <p class="section-label mb-2">Email</p>
-          <a href="mailto:nivedh645@gmail.com" class="text-xl font-bold text-on-surface hover:text-primary transition-colors duration-200">nivedh645@gmail.com</a>
+          <a href="/cdn-cgi/l/email-protection#83edeaf5e6e7ebb5b7b6c3e4eee2eaefade0ecee" class="text-xl font-bold text-on-surface hover:text-primary transition-colors duration-200"><span class="__cf_email__" data-cfemail="e886819e8d8c80dedcdda88f85898184c68b8785">[email&#160;protected]</span></a>
         </div>
 
         <!-- LinkedIn -->
@@ -288,7 +279,7 @@ tailwind.config = {
   </div>
 </footer>
 
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
   // Smooth active nav link on scroll
   const sections = document.querySelectorAll('main section[id], main[id]');
   const navLinks = document.querySelectorAll('nav a.nav-link');
@@ -296,12 +287,4 @@ tailwind.config = {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
         navLinks.forEach(l => l.classList.remove('active'));
-        const active = document.querySelector(`nav a[href="#${entry.target.id}"]`);
-        if (active) active.classList.add('active');
-      }
-    });
-  }, { threshold: 0.4 });
-  document.querySelectorAll('section[id], main[id]').forEach(s => observer.observe(s));
-</script>
-</body>
-</html>
+        const active = document.querySelector(`na
